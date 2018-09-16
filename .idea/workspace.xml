@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8b542fc-8440-43dc-ad5c-abccb2bea851" name="Default Changelist" comment="">
+    <list default="true" id="e8b542fc-8440-43dc-ad5c-abccb2bea851" name="Default Changelist" comment="Added more validation">
       <change afterPath="$PROJECT_DIR$/models/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/validation/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/validation/register.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,12 +28,12 @@
         <counts>
           <entry key="gitignore" value="4" />
           <entry key="js" value="15" />
-          <entry key="json" value="8" />
+          <entry key="json" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="8" />
+          <entry key="JSON" value="9" />
           <entry key="JavaScript" value="15" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
@@ -44,16 +41,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="56" />
-          <entry key="js" value="5257" />
+          <entry key="js" value="6153" />
           <entry key="json" value="72" />
-          <entry key="txt" value="68" />
+          <entry key="txt" value="90" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="72" />
-          <entry key="JavaScript" value="5257" />
-          <entry key="PLAIN_TEXT" value="124" />
+          <entry key="JavaScript" value="6153" />
+          <entry key="PLAIN_TEXT" value="146" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -112,7 +109,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/Profile.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="535">
+              <caret line="118" column="68" selection-start-line="118" selection-start-column="68" selection-end-line="118" selection-end-column="68" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -299,7 +300,7 @@
       <workItem from="1536741239317" duration="4926000" />
       <workItem from="1536748688719" duration="33000" />
       <workItem from="1536748724560" duration="3751000" />
-      <workItem from="1537081120030" duration="2005000" />
+      <workItem from="1537081120030" duration="2744000" />
     </task>
     <task id="LOCAL-00001" summary="Added authentication with JWT and passport">
       <created>1536826064321</created>
@@ -315,22 +316,29 @@
       <option name="project" value="LOCAL" />
       <updated>1536826873798</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added more validation">
+      <created>1537084964318</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537084964319</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10715000" />
+    <option name="totallyTimeSpent" value="11454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11754069" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11754069" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49954003" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49954003" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,20 +361,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added authentication with JWT and passport" />
     <MESSAGE value="Added basic validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added basic validation" />
+    <MESSAGE value="Added more validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more validation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/routes/api/posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -447,8 +449,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/Profile.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="118" column="68" selection-start-line="118" selection-start-column="68" selection-end-line="118" selection-end-column="68" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
